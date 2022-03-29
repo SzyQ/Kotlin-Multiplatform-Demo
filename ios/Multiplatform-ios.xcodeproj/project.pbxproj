@@ -13,6 +13,8 @@
 		84A6356427F0F1310043E90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6355227F0F12F0043E90A /* ContentView.swift */; };
 		84A6356527F0F1310043E90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6355327F0F1310043E90A /* Assets.xcassets */; };
 		84A6356627F0F1310043E90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6355327F0F1310043E90A /* Assets.xcassets */; };
+		84F34F8B27F3A19200968C83 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F34F8A27F3A19200968C83 /* MainViewModel.swift */; };
+		84F34F8C27F3A19200968C83 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F34F8A27F3A19200968C83 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		84A6355827F0F1310043E90A /* Multiplatform-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplatform-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6355E27F0F1310043E90A /* Multiplatform-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplatform-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6356027F0F1310043E90A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		84F34F8A27F3A19200968C83 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				84A6355127F0F12F0043E90A /* Multiplatform_iosApp.swift */,
 				84A6355227F0F12F0043E90A /* ContentView.swift */,
 				84A6355327F0F1310043E90A /* Assets.xcassets */,
+				84F34F8A27F3A19200968C83 /* MainViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			files = (
 				84A6356327F0F1310043E90A /* ContentView.swift in Sources */,
 				84A6356127F0F1310043E90A /* Multiplatform_iosApp.swift in Sources */,
+				84F34F8B27F3A19200968C83 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +213,7 @@
 			files = (
 				84A6356427F0F1310043E90A /* ContentView.swift in Sources */,
 				84A6356227F0F1310043E90A /* Multiplatform_iosApp.swift in Sources */,
+				84F34F8C27F3A19200968C83 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

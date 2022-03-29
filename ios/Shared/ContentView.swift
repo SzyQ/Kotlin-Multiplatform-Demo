@@ -9,9 +9,20 @@ import SwiftUI
 import common
 
 struct ContentView: View {
+    @ObservedObject var model = MainViewModel()
+    
     var body: some View {
-        Text(Greeting().greeting())
-            .padding()
+        Participants().environmentObject(model)
+    }
+}
+
+struct Participants: View {
+    @EnvironmentObject var model: MainViewModel
+    
+    var body: some View {
+        List(model.participants) { participant in
+            Text(participant.name)
+        }
     }
 }
 
